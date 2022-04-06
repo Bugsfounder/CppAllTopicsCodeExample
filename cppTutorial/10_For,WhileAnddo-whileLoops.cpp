@@ -26,13 +26,22 @@ int main(int argc, char const *argv[])
     // }
     
     // do-while loop 
+    // int i = 0;
+    // do
+    // {
+    //     cout<<i+1<<endl;
+    //     i++;
+    // } while (i<100);
+    
     int i = 0;
     do
     {
-        cout<<i+1<<endl;
+        cout<<6<<" X "<<i+1<<" = "<<6*(i+1)<<endl;
         i++;
-    } while (i<100);
+    } while (i<10);
     
+
 
     return 0;
 }
+
