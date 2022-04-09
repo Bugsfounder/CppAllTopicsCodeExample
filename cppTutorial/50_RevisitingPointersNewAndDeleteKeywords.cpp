@@ -17,7 +17,8 @@ int main()
 
     int *arr = new int[3];
     arr[0] = 10;
-    arr[1] = 20;
+    *(arr + 1) = 20;
+    // arr[1] = 20;
     arr[2] = 30;
     cout << arr[0] << endl;
     cout << arr[1] << endl;
