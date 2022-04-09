@@ -20,7 +20,7 @@ public:
     }
 };
 
-Complex ::Complex(void) // ---> This is a default constructor as it takes no parameters.
+Complex ::Complex(void) // ---> This is a default constructor as it accepts no parameters.
 {
     a = 0;
     b = 0;
