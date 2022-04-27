@@ -56,3 +56,33 @@ int main(int argc, char const *argv[])
     return 0;
 }
 ```
+
+# Terminal Commands
+
+### cmake command
+
+#### cmake -S <SOURCE_DIR_LOCATION> -B <BUILD_DIR_LOCATION>
+
+```
+cmake -S . -B out/build
+```
+
+### make command
+
+#### make -C <BUILD_DIR_LOCATION>
+
+```
+make -C out/build/
+
+or
+
+cd out/build && make
+
+or
+
+cd out/build && make -j
+
+or
+
+cd out/build && make -j2
+```
